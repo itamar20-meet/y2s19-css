@@ -1,1 +1,58 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+h1{
+	
+	color: #63372c;
+}
 
+p{
+	
+	color: #ffbcb5;
+}
+a {
+	color: purple;
+	font-size: 18px;
+}
+.vegetarian{
+	color: red;
+	font-family: arial;
+}
+.non-vegetarian{
+	color: blue;
+}
+#unique{
+	background-color: pink;
+}
+.sidebar{
+	background-color:  lightblue;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 100%;
+	padding: 10px;
+}
+.title{
+	height: 60px;
+	width: 100%;
+	border-bottom: 1px;
+	border-bottom-color: grey;
+	border-bottom-style: solid;
+}
+.container{
+	position: relative;
+	height: 1000px;
+}
+.content{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	border:2px;
+	border-style: solid;
+	border-color: purple;
+	margin: 5px;
+	padding-left:15px;
+	padding-right: 15px; 
+}
